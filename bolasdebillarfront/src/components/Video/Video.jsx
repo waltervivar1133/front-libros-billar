@@ -6,6 +6,7 @@ const Video = () => {
        
        <Embed
        aspectRatio='4:3'
+       
       id='m6LceHKs8MU'
       source='youtube'
   />
