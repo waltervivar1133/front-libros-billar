@@ -107,4 +107,8 @@ img {
     max-width: 100%;
     flex-basis: 100%;
   }
+  .home__hero-section {
+    color: #fff;
+    padding: 5rem 0;
+  }
 }
