@@ -1,0 +1,19 @@
+:root{
+  --primary : #fff;
+  --black-primary: #242424;
+  --red-primary : #f00946;
+  --azul-primary : #276afd;
+  --green-primary : #25ce4a;
+  --naranja : #ff7800;
+  --azul-secondary: hsl(227, 33%, 16%);
+  --media-md : 960px; 
+
+
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans ', sans-serif;
+}
