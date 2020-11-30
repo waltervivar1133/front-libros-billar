@@ -69,12 +69,12 @@ const Navbar = () => {
             </li>
             <li className="nav-btn">
               { button ? (
-                 <a href='/registrate' className="btn-link"  onClick={ closeMobileMenu}>
+                 <a href='#pricing' className="btn-link"  onClick={ closeMobileMenu}>
                    <Button buttonStyle ="btn--outline"> Compra ya!</Button>
                  </a>
               ) 
               : (
-                <a href='/registrate' className="btn-link"  onClick={ closeMobileMenu}>
+                <a href='#pricing' className="btn-link"  onClick={ closeMobileMenu}>
                   <Button buttonStyle="btn--outline" buttonSize="btn--mobile">Compra ya!</Button>
                 </a>
               ) 

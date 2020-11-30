@@ -5,9 +5,11 @@ const Video = () => {
 
        
        <Embed
-       aspectRatio='4:3'
-      id='m6LceHKs8MU'
+      
+      id='HTZudKi36bo'
+      placeholder='images/svg-video.svg'
       source='youtube'
+      aspectRatio='4:3'
   />
       
   

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../Elements/Button.jsx';
+import {BiBookOpen} from 'react-icons/bi'
 
 import {
   FaFacebook,
@@ -15,11 +15,11 @@ import { MdFingerprint } from 'react-icons/md';
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join our exclusive membership to receive the latest news and trends
+         © Copyright ProcaticGroup. Todos los derechos reservados.
         </p>
-        <p className='footer-subscription-text'>
+         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
@@ -32,9 +32,9 @@ function Footer() {
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
-        </div>
-      </section>
-      <div className='footer-links'>
+        </div> 
+      </section> */}
+      {/* <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
@@ -68,16 +68,16 @@ function Footer() {
             <a href='/'>Twitter</a>
           </div>
         </div>
-      </div>
+      </div> */}
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <a href='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
-              LAVISH
+              <BiBookOpen className='navbar-icon' />
+              Billar
             </a>
           </div>
-          <small className='website-rights'>LAVISH © 2020</small>
+          <small className='website-rights'> © Copyright ProcaticGroup. Todos los derechos reservados.</small>
           <div className='social-icons'>
             <a
               className='social-icon-link'

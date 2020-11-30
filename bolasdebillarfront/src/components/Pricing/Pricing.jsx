@@ -11,59 +11,66 @@ function Pricing() {
    
       <div className='pricing__section' id ="pricing">
         <div className='pricing__wrapper'>
-          <h1 className='pricing__heading'>Pricing</h1>
+          <div className="pricing__container-heading">
+          <h1 className='pricing__heading'>Precios</h1>
+          </div>
           <div className='pricing__container'>
-            <a href='/sign-up' className='pricing__container-card'>
+            <a href='#!' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <FaFire />
                 </div>
-                <h3>Starter</h3>
-                <h4>$8.99</h4>
-                <p>per month</p>
+                <h3>Principios de tres bandas</h3>
+                <h4>$15.00</h4>
+                <p>libro 1</p>
                 <ul className='pricing__container-features'>
-                  <li>100 Transactions</li>
-                  <li>2% Cash Back</li>
-                  <li>$10,000 Limit</li>
+                  <li>Diseño a Full Color.</li>
+                  <li>157 Páginas.</li>
+                  <li>30 Sistemas de Billar.</li>
+                  <li>Formato Digital en Versión PDF.</li>
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Choose Plan
+                  Ordene ahora
                 </Button>
               </div>
             </a>
-            <a href='/sign-up' className='pricing__container-card'>
+            <a href='#!' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <BsXDiamondFill />
                 </div>
-                <h3>Gold</h3>
-                <h4>$29.99</h4>
-                <p>per month</p>
+                <h3>Sistema avanzados de tres bandas</h3>
+                <h4>$20.00</h4>
+                <p>libro 2</p>
                 <ul className='pricing__container-features'>
-                  <li>1000 Transactions</li>
-                  <li>3.5% Cash Back</li>
-                  <li>$100,000 Limit</li>
+                  <li>Diseño a Full Color.</li>
+                  <li>240 Páginas.</li>
+                  <li>72 Sistemas de Billar.</li>
+                  <li>Formato Digital en Versión PDF.</li>
+                  
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='blue'>
-                  Choose Plan
+                 Ordene ahora
                 </Button>
               </div>
             </a>
-            <a href='/sign-up' className='pricing__container-card'>
+            <a href='#!' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <GiCrystalize />
                 </div>
-                <h3>Diamond</h3>
-                <h4>$99.99</h4>
-                <p>per month</p>
+                <h3>Billar básico, tome de bola y efecto</h3>
+                <h4>$15.00</h4>
+                <p>libro 3</p>
                 <ul className='pricing__container-features'>
-                  <li>Unlimited Transactions</li>
-                  <li>5% Cash Back</li>
-                  <li>Unlimited Spending</li>
+                  <li>Diseño a Full Color.</li>
+                  <li>70 Páginas.</li>
+                  <li>20 Sistemas de Billar.</li>
+                  <li>Formato Digital en Versión PDF.</li>
+
                 </ul>
                 <Button buttonSize='btn--wide' buttonColor='primary'>
-                  Choose Plan
+                  Ordene ahora
                 </Button>
               </div>
             </a>
