@@ -34,7 +34,7 @@ function Pricing() {
                 </Button>
               </div>
             </a>
-            <a href='https://mpago.la/1GaHQV3' className='pricing__container-card'>
+            <a href='https://mpago.la/1GaHQV3'   target="_blank" className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <BsXDiamondFill />
@@ -54,7 +54,7 @@ function Pricing() {
                 </Button>
               </div>
             </a>
-            <a href='https://mpago.la/1xQv7K1' className='pricing__container-card'>
+            <a href='https://mpago.la/1xQv7K1'   target="_blank" className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <GiCrystalize />
