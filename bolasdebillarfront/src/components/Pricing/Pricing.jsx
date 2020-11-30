@@ -15,13 +15,13 @@ function Pricing() {
           <h1 className='pricing__heading'>Precios</h1>
           </div>
           <div className='pricing__container'>
-            <a href='#!' className='pricing__container-card'>
+            <a href='https://mpago.la/2dFH82q' target="_blank" className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <FaFire />
                 </div>
                 <h3>Principios de tres bandas</h3>
-                <h4>$15.00</h4>
+                <h4>$15.00 </h4>
                 <p>libro 1</p>
                 <ul className='pricing__container-features'>
                   <li>Diseño a Full Color.</li>
@@ -34,7 +34,7 @@ function Pricing() {
                 </Button>
               </div>
             </a>
-            <a href='#!' className='pricing__container-card'>
+            <a href='https://mpago.la/1GaHQV3' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <BsXDiamondFill />
@@ -54,7 +54,7 @@ function Pricing() {
                 </Button>
               </div>
             </a>
-            <a href='#!' className='pricing__container-card'>
+            <a href='https://mpago.la/1xQv7K1' className='pricing__container-card'>
               <div className='pricing__container-cardInfo'>
                 <div className='icon'>
                   <GiCrystalize />
