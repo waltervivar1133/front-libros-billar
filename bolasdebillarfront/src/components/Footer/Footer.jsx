@@ -12,7 +12,7 @@ import {
 import { MdFingerprint } from 'react-icons/md';
 
 
-function Footer() {
+const  Footer= () => {
   return (
     <div className='footer-container'>
       {/* <section className='footer-subscription'>

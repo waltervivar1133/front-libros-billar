@@ -131,4 +131,65 @@
 
 .whatsapp-icon {
   margin-top:13px;
+  color: white;
+}
+
+
+/* tootlop */
+
+[data-title]:before,
+[data-title]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Position tooltip above the element */
+[data-title]{
+  position: relative;
+}
+
+[data-title]:before {
+  position: absolute ;
+  bottom: 0;
+  left: -16rem;
+  right: 100;
+  top: 10;
+  padding: 5px;
+  width: 200px;
+  border-radius: 3px;
+  background-color: #000;
+  background-color:var(--azul-primary);
+  color: #fff;
+  content: attr(data-title);
+  font-size: 15px;
+
+}
+
+Triangle hack to make tooltip look like a speech bubble
+[data-title]:after {
+  position: absolute;
+  bottom: 1;
+  left: 4;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #000;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  color: white;
+  font-size: 14px;
+  line-height: 0;
+}
+
+/* Show tooltip content on hover */
+[data-title]:hover:before,
+[data-title]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
 }
